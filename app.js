@@ -49,3 +49,7 @@ app.listen( process.env.PORT||3000,function(){
 app.get("/author", function(req,res){
     res.render("author");
 })
+
+app.get("/sponsors", function(req,res){
+    res.render("sponsors");
+})
